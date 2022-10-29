@@ -1,0 +1,20 @@
+@mixin mobile {
+    @media(max-width:576px) {
+        @content;
+    }
+}
+
+@mixin pad {
+    @media(max-width:1023px) {
+        @content;
+    }
+}
+
+@mixin pc {
+    @media(min-width:1023px) {
+        @content;
+    }
+}
+
+$main-color: #ad9874;
+$sub-color: #626466;
